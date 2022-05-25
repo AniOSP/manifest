@@ -17,8 +17,12 @@
            revision="refs/heads/twelve" />
 
   <remove-project name="platform/build/soong" />
+  <remove-project name="platform/external/e2fsprogs" />
+  <remove-project name="platform/external/gptfdisk" />
+  <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/packages/modules/adb" />
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/prebuilts/build-tools" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
@@ -28,6 +32,7 @@
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
   <remove-project name="platform/system/bt" />
+  <remove-project name="platform/system/libziparchive" />
   <remove-project name="platform/system/sepolicy" />
 
   <project path="build/soong" name="build_soong" remote="pe" >
@@ -45,7 +50,11 @@
   <project path="external/ant-wireless/ant_native" name="external_ant-wireless_ant_native" remote="pe" />
   <project path="external/ant-wireless/ant_service" name="external_ant-wireless_ant_service" remote="pe" />
   <project path="external/ant-wireless/hidl" name="external_ant-wireless_hidl" remote="pe" />
+  <project path="external/e2fsprogs" name="external_e2fsprogs" remote="pe" />
+  <project path="external/exfatprogs" name="external_exfatprogs" remote="pe" />
+  <project path="external/gptfdisk" name="external_gptfdisk" remote="pe" />
   <project path="external/json-c" name="external_json-c" remote="pe" />
+  <project path="external/mksh" name="external_mksh" remote="pe" />
   <project path="external/tinycompress" name="external_tinycompress" remote="pe" />
 
   <project path="hardware/libhardware" name="hardware_libhardware" remote="pe" />
@@ -110,6 +119,7 @@
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="pe" />
 
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pe" />
+  <project path="packages/modules/adb" name="packages_modules_adb" remote="pe" />
 
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="pe" clone-depth="1" />
   <project path="prebuilts/extract-tools" name="prebuilts_extract-tools" remote="pe" clone-depth="1" />
@@ -122,6 +132,7 @@
   <project path="prebuilts/tools-aniosp" name="prebuilts_tools-custom" remote="pe" clone-depth="1" />
 
   <project path="system/bt" name="system_bt" remote="pe" />
+  <project path="system/libziparchive" name="system_libziparchive" remote="pe" />
   <project path="system/sepolicy" name="system_sepolicy" remote="pe" />
 
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="pe" />

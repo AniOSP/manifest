@@ -8,8 +8,11 @@
            fetch="https://github.com/AniOSP-Devices"
            revision="refs/heads/shizuku-12.1" />
 
+  <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
   <remove-project name="platform/frameworks/base" />
+
+  <project path="bootable/recovery" name="bootable_recovery" remote="aniosp" />
 
   <project path="build/make" name="build" remote="aniosp" >
     <copyfile src="core/root.mk" dest="Makefile" />
