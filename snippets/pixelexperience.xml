@@ -117,6 +117,7 @@
 
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pe" />
   <project path="packages/modules/adb" name="packages_modules_adb" remote="pe" />
+  <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="pe" />
 
   <project path="prebuilts/build-tools" name="prebuilts_build-tools" remote="pe" clone-depth="1" />
   <project path="prebuilts/extract-tools" name="prebuilts_extract-tools" remote="pe" clone-depth="1" />
