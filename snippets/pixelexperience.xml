@@ -21,6 +21,7 @@
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/tinycompress" />
+  <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/packages/modules/adb" />
   <remove-project name="platform/packages/apps/Bluetooth" />
@@ -55,6 +56,8 @@
   <project path="external/json-c" name="external_json-c" remote="pe" />
   <project path="external/mksh" name="external_mksh" remote="pe" />
   <project path="external/tinycompress" name="external_tinycompress" remote="pe" />
+
+  <project path="frameworks/native" name="frameworks_native" remote="pe" />
 
   <project path="hardware/libhardware" name="hardware_libhardware" remote="pe" />
   <project path="hardware/qcom-caf/bootctrl" name="hardware_qcom-caf_bootctrl" remote="pe" />
