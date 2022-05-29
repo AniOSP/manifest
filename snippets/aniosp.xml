@@ -34,5 +34,7 @@
 
   <project path="hardware/aniosp/interfaces" name="hardware_aniosp_interfaces" remote="aniosp" />
 
+  <project path="packages/apps/Updates" name="packages_apps_Updates" remote="aniosp" />
+
   <project path="vendor/aniosp" name="vendor_aniosp" remote="aniosp" />
 </manifest>

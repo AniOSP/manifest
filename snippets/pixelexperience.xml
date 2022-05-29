@@ -32,7 +32,8 @@
   <remove-project name="platform/prebuilts/gcc/linux-x86/arm/arm-linux-androideabi-4.9" />
   <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
   <remove-project name="platform/system/bt" />
-  <remove-project name="platform/system/core" />  
+  <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/libziparchive" />
   <remove-project name="platform/system/sepolicy" />
 
@@ -133,6 +134,7 @@
   <project path="system/core" name="system_core" remote="pe" />
   <project path="system/libziparchive" name="system_libziparchive" remote="pe" />
   <project path="system/sepolicy" name="system_sepolicy" remote="pe" />
+  <project path="system/update_engine" name="system_update_engine" remote="pe" />
 
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="pe" />
   <project path="vendor/nxp/nfc" name="vendor_nxp_nfc" remote="pe" />
