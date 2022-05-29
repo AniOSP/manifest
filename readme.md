@@ -16,4 +16,16 @@ Once your hentai folder has been cleared out a bit, run (in the directory that y
 
 `repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags`
 
-The above command will take several hours, potentially days if you have a slow internet connection. Once it completes, you can get to building (ill make the guide later)
+The above command can take between several minutes to several hours, potentially days if you have a slow internet connection/on a Hard Disk Drive. Once it completes, you can get to building
+-----------------------------------------------------------------------------------------
+
+### Building
+```sh
+. build/envsetup.sh
+lunch aniosp_$device-userdebug
+mka aniosp
+```
+
+This can take several hours to complete, depending on how many CPU cores you have and if you have `ccache` installed or not.
+
+Once the build is complete, you can find your sideloadable OTA zip file in `out/target/product/$device/$version.zip`
