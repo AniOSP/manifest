@@ -11,6 +11,7 @@
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
   <remove-project name="platform/frameworks/base" />
+  <remove-project name="platform/packages/apps/Settings" />
 
   <project path="bootable/recovery" name="bootable_recovery" remote="aniosp" />
 
@@ -35,6 +36,7 @@
   <project path="hardware/aniosp/interfaces" name="hardware_aniosp_interfaces" remote="aniosp" />
 
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="aniosp" />
+  <project path="packages/apps/Settings" name="packages_apps_Settings" remote="aniosp" />
 
   <project path="vendor/aniosp" name="vendor_aniosp" remote="aniosp" />
 </manifest>

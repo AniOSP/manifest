@@ -50,6 +50,7 @@
   <project path="external/ant-wireless/hidl" name="external_ant-wireless_hidl" remote="pe" />
   <project path="external/e2fsprogs" name="external_e2fsprogs" remote="pe" />
   <project path="external/exfatprogs" name="external_exfatprogs" remote="pe" />
+  <project path="external/faceunlock" name="external_faceunlock" remote="pe-gitlab" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="pe" />
   <project path="external/json-c" name="external_json-c" remote="pe" />
   <project path="external/mksh" name="external_mksh" remote="pe" />
@@ -117,6 +118,8 @@
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="pe" />
 
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pe" />
+  <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pe" />
+  <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="pe" />
   <project path="packages/modules/adb" name="packages_modules_adb" remote="pe" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="pe" />
 
@@ -137,6 +140,7 @@
   <project path="system/update_engine" name="system_update_engine" remote="pe" />
 
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="pe" />
+  <project path="vendor/custom-preference" name="vendor_custom-preference" remote="pe" />
   <project path="vendor/nxp/nfc" name="vendor_nxp_nfc" remote="pe" />
   <project path="vendor/nxp/opensource/interfaces/nfc" name="vendor_nxp_opensource_interfaces_nfc" remote="pe" />
   <project path="vendor/nxp/opensource/commonsys/external/libnfc-nci" name="vendor_nxp_opensource_commonsys_external_libnfc-nci" remote="pe" />
@@ -170,4 +174,5 @@
   <project path="vendor/qcom/opensource/usb" name="vendor_qcom_opensource_usb" remote="pe" />
   <project path="vendor/qcom/opensource/vibrator" name="vendor_qcom_opensource_vibrator" remote="pe" />
   <project path="vendor/qcom/opensource/wfd-commonsys" name="vendor_qcom_opensource_wfd-commonsys" remote="pe" />
+  <project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="pe" />
 </manifest>
