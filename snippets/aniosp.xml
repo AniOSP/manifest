@@ -8,6 +8,10 @@
            fetch="https://github.com/AniOSP-Devices"
            revision="refs/heads/shizuku-12.1" />
 
+  <remote  name="aniosp-gitea"
+           fetch="https://code.relms.dev/AniOSP"
+           revision="refs/heads/shizuku-12.1" />
+
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
   <remove-project name="platform/frameworks/base" />
@@ -39,4 +43,5 @@
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="aniosp" />
 
   <project path="vendor/aniosp" name="vendor_aniosp" remote="aniosp" />
+  <project path="vendor/gapps" name="vendor_gapps" remote="aniosp-gitea" depth="1" />
 </manifest>
