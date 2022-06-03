@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-
   <remote  name="aosp"
            fetch="https://android.googlesource.com/"
            review="https://android-review.googlesource.com/" />
@@ -1104,4 +1103,7 @@
 
   <repo-hooks in-project="platform/tools/repohooks" enabled-list="pre-upload" />
 
+  <include name="snippets/aniosp.xml" />
+  <include name="snippets/lineage.xml" />
+  <include name="snippets/pixelexperience.xml" />
 </manifest>
