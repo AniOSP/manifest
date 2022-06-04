@@ -39,6 +39,7 @@
 
   <project path="hardware/aniosp/interfaces" name="hardware_aniosp_interfaces" remote="aniosp" />
 
+  <project path="packages/apps/Caster" name="packages_apps_Caster" remote="aniosp" />
   <project path="packages/apps/Updates" name="packages_apps_Updates" remote="aniosp" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="aniosp" />
 
