@@ -23,6 +23,29 @@
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/frameworks/native" />
   <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/hardware/qcom/audio" />
+  <remove-project name="platform/hardware/qcom/camera" />
+  <remove-project name="platform/hardware/qcom/data/ipacfg-mgr" />
+  <remove-project name="platform/hardware/qcom/display" />
+  <remove-project name="platform/hardware/qcom/gps" />
+  <remove-project name="platform/hardware/qcom/keymaster" />
+  <remove-project name="platform/hardware/qcom/media" />
+  <remove-project name="platform/hardware/qcom/msm8960" />
+  <remove-project name="platform/hardware/qcom/msm8996" />
+  <remove-project name="platform/hardware/qcom/msm8x09" />
+  <remove-project name="platform/hardware/qcom/msm8x26" />
+  <remove-project name="platform/hardware/qcom/msm8x27" />
+  <remove-project name="platform/hardware/qcom/msm8x84" />
+  <remove-project name="platform/hardware/qcom/power" />
+  <remove-project name="platform/hardware/qcom/sdm845/data/ipacfg-mgr" />
+  <remove-project name="platform/hardware/qcom/sdm845/display" />
+  <remove-project name="platform/hardware/qcom/sdm845/media" />
+  <remove-project name="platform/hardware/qcom/sm7250/display" />
+  <remove-project name="platform/hardware/qcom/sm7250/media" />
+  <remove-project name="platform/hardware/qcom/sm8150/data/ipacfg-mgr" />
+  <remove-project name="platform/hardware/qcom/sm8150/display" />
+  <remove-project name="platform/hardware/qcom/sm8150/media" />
+  <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/packages/modules/adb" />
   <remove-project name="platform/packages/apps/Bluetooth" />
   <remove-project name="platform/prebuilts/build-tools" />
@@ -61,6 +84,28 @@
   <project path="frameworks/native" name="frameworks_native" remote="pe" />
 
   <project path="hardware/libhardware" name="hardware_libhardware" remote="pe" />
+  <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="pe" />
+  <project path="hardware/qcom/data/ipacfg-mgr" name="hardware_qcom_data_ipacfg-mgr" remote="pe" />
+  <project path="hardware/qcom/camera" name="hardware_qcom_camera" remote="pe" />
+  <project path="hardware/qcom/display" name="hardware_qcom_display" remote="pe" />
+  <project path="hardware/qcom/gps" name="hardware_qcom_gps" remote="pe" />
+  <project path="hardware/qcom/keymaster" name="hardware_qcom_keymaster" remote="pe" />
+  <project path="hardware/qcom/media" name="hardware_qcom_media" remote="pe" />
+  <project path="hardware/qcom/msm8998" name="hardware_qcom_msm8998" remote="pe" />
+  <project path="hardware/qcom/sdm845/data/ipacfg-mgr" name="hardware_qcom_sdm845_data_ipacfg-mgr" remote="pe" >
+    <linkfile src="os_pickup.bp" dest="hardware/qcom/sdm845/Android.bp" />
+  </project>
+  <project path="hardware/qcom/sdm845/display" name="hardware_qcom_sdm845_display" remote="pe" />
+  <project path="hardware/qcom/sdm845/media" name="hardware_qcom_sdm845_media" remote="pe" />
+  <project path="hardware/qcom/sm7250/display" name="hardware_qcom_sm7250_display" remote="pe" />
+  <project path="hardware/qcom/sm7250/media" name="hardware_qcom_sm7250_media" remote="pe" />
+  <project path="hardware/qcom/sm8150/data/ipacfg-mgr" name="hardware_qcom_sm8150_data_ipacfg-mgr" remote="pe">
+    <linkfile src="os_pickup.mk" dest="hardware/qcom/sm8150/Android.mk" />
+    <linkfile src="os_pickup.bp" dest="hardware/qcom/sm8150/Android.bp" />
+  </project>
+  <project path="hardware/qcom/sm8150/display" name="hardware_qcom_sm8150_display" remote="pe" />
+  <project path="hardware/qcom/sm8150/media" name="hardware_qcom_sm8150_media" remote="pe" />
+  <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="pe" />
   <project path="hardware/qcom-caf/bootctrl" name="hardware_qcom-caf_bootctrl" remote="pe" />
   <project path="hardware/qcom-caf/bt" name="hardware_qcom-caf_bt" remote="pe" />
   <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="pe">
