@@ -48,6 +48,7 @@
   <remove-project name="platform/hardware/qcom/wlan" />
   <remove-project name="platform/packages/modules/adb" />
   <remove-project name="platform/packages/apps/Bluetooth" />
+  <remove-project name="platform/packages/apps/Nfc" />
   <remove-project name="platform/prebuilts/build-tools" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
   <remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
@@ -57,10 +58,11 @@
   <remove-project name="platform/prebuilts/gcc/linux-x86/x86/x86_64-linux-android-4.9" />
   <remove-project name="platform/system/bt" />
   <remove-project name="platform/system/core" />
+  <remove-project name="platform/system/libziparchive" />
+  <remove-project name="platform/system/nfc" />
+  <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />  
-  <remove-project name="platform/system/libziparchive" />
-  <remove-project name="platform/system/sepolicy" />
 
   <project path="build/soong" name="build_soong" remote="pe" >
     <linkfile src="root.bp" dest="Android.bp" />
@@ -77,6 +79,7 @@
   <project path="external/exfatprogs" name="external_exfatprogs" remote="pe" />
   <project path="external/faceunlock" name="external_faceunlock" remote="pe-gitlab" />
   <project path="external/gptfdisk" name="external_gptfdisk" remote="pe" />
+  <project path="external/libnfc-nxp" name="external_libnfc-nxp" remote="pe" />
   <project path="external/json-c" name="external_json-c" remote="pe" />
   <project path="external/mksh" name="external_mksh" remote="pe" />
   <project path="external/tinycompress" name="external_tinycompress" remote="pe" />
@@ -168,6 +171,7 @@
 
   <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="pe" />
   <project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pe" />
+  <project path="packages/apps/Nfc" name="packages_apps_Nfc" remote="pe" />
   <project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="pe" />
   <project path="packages/modules/adb" name="packages_modules_adb" remote="pe" />
   <project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="pe" />
@@ -185,6 +189,7 @@
   <project path="system/bt" name="system_bt" remote="pe" />
   <project path="system/core" name="system_core" remote="pe" />
   <project path="system/libziparchive" name="system_libziparchive" remote="pe" />
+  <project path="system/nfc" name="system_nfc" remote="pe" />
   <project path="system/sepolicy" name="system_sepolicy" remote="pe" />
   <project path="system/update_engine" name="system_update_engine" remote="pe" />
   <project path="system/vold" name="system_vold" remote="pe" />
