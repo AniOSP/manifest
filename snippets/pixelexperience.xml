@@ -194,6 +194,8 @@
   <project path="system/update_engine" name="system_update_engine" remote="pe" />
   <project path="system/vold" name="system_vold" remote="pe" />
 
+  <project path="tools/extract-utils" name="tools_extract-utils" remote="pe" />
+
   <project path="vendor/codeaurora/telephony" name="vendor_codeaurora_telephony" remote="pe" />
   <project path="vendor/custom-preference" name="vendor_custom-preference" remote="pe" />
   <project path="vendor/nxp/nfc" name="vendor_nxp_nfc" remote="pe" />
