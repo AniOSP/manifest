@@ -14,6 +14,7 @@
 
   <remove-project name="platform/bootable/recovery" />
   <remove-project name="platform/build" />
+  <remove-project name="platform/build/soong" />  
   <remove-project name="platform/frameworks/base" />
   <remove-project name="platform/packages/apps/Settings" />
 
@@ -27,6 +28,10 @@
     <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
+  </project>
+  <project path="build/soong" name="build_soong" remote="aniosp" >
+    <linkfile src="root.bp" dest="Android.bp" />
+    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
   </project>
 
   <project path="device/aniosp/sepolicy" name="device_aniosp_sepolicy" remote="aniosp" />

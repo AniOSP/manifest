@@ -16,7 +16,6 @@
            fetch="https://gitlab.pixelexperience.org/android"
            revision="refs/heads/twelve" />
 
-  <remove-project name="platform/build/soong" />
   <remove-project name="platform/external/e2fsprogs" />
   <remove-project name="platform/external/gptfdisk" />
   <remove-project name="platform/external/mksh" />
@@ -63,11 +62,6 @@
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
   <remove-project name="platform/system/vold" />  
-
-  <project path="build/soong" name="build_soong" remote="pe" >
-    <linkfile src="root.bp" dest="Android.bp" />
-    <linkfile src="bootstrap.bash" dest="bootstrap.bash" />
-  </project>
 
   <project path="device/qcom/common" name="device_qcom_common" remote="pe-devices" />
 
