@@ -61,7 +61,7 @@
   <remove-project name="platform/system/nfc" />
   <remove-project name="platform/system/sepolicy" />
   <remove-project name="platform/system/update_engine" />
-  <remove-project name="platform/system/vold" />  
+  <remove-project name="platform/system/vold" />
 
   <project path="device/qcom/common" name="device_qcom_common" remote="pe-devices" />
 
@@ -103,7 +103,6 @@
   <project path="hardware/qcom/sm8150/display" name="hardware_qcom_sm8150_display" remote="pe" />
   <project path="hardware/qcom/sm8150/media" name="hardware_qcom_sm8150_media" remote="pe" />
   <project path="hardware/qcom/wlan" name="hardware_qcom_wlan" remote="pe" />
-  <project path="hardware/qcom-caf/bootctrl" name="hardware_qcom-caf_bootctrl" remote="pe" />
   <project path="hardware/qcom-caf/bt" name="hardware_qcom-caf_bt" remote="pe" />
   <project path="hardware/qcom-caf/common" name="hardware_qcom-caf_common" remote="pe">
     <!-- add guard for AOSP hardware/qcom dir -->
@@ -164,7 +163,7 @@
   <project path="hardware/qcom-caf/sm8250-common/media" name="hardware_qcom-caf_sm8250-common_media" remote="pe" revision="twelve" />
   <project path="hardware/qcom-caf/sm8350/audio" name="hardware_qcom-caf_sm8350_audio" remote="pe" />
   <project path="hardware/qcom-caf/sm8350/display" name="hardware_qcom-caf_sm8350_display" remote="pe" />
-  <project path="hardware/qcom-caf/sm8350/media" name="hardware_qcom-caf_sm8350_media" remote="pe" />  
+  <project path="hardware/qcom-caf/sm8350/media" name="hardware_qcom-caf_sm8350_media" remote="pe" />
   <project path="hardware/qcom-caf/thermal" name="hardware_qcom-caf_thermal" remote="pe" />
   <project path="hardware/qcom-caf/vr" name="hardware_qcom-caf_vr" remote="pe" />
   <project path="hardware/qcom-caf/wlan" name="hardware_qcom-caf_wlan" remote="pe" />
