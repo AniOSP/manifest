@@ -21,6 +21,7 @@
   <remove-project name="platform/external/mksh" />
   <remove-project name="platform/external/tinycompress" />
   <remove-project name="platform/frameworks/native" />
+	<remove-project name="platform/frameworks/opt/telephony" />
   <remove-project name="platform/hardware/libhardware" />
   <remove-project name="platform/hardware/qcom/audio" />
   <remove-project name="platform/hardware/qcom/camera" />
@@ -79,6 +80,7 @@
   <project path="external/tinycompress" name="external_tinycompress" remote="pe" />
 
   <project path="frameworks/native" name="frameworks_native" remote="pe" />
+	<project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="pe" />
 
   <project path="hardware/libhardware" name="hardware_libhardware" remote="pe" />
   <project path="hardware/qcom/audio" name="hardware_qcom_audio" remote="pe" />
