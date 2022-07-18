@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="pe"
+					fetch="https://github.com/PixelExperience"
+					revision="refs/heads/twelve" />
+
+	<remote name="pe-devices"
+					fetch="https://github.com/PixelExperience-Devices"
+					revision="refs/heads/twelve" />
+
+	<remote name="pe-plus"
+					fetch="https://github.com/PixelExperience"
+					revision="refs/heads/twelve-plus" />
+
+	<remote name="pe-gitlab"
+					fetch="https://gitlab.pixelexperience.org/android"
+					revision="refs/heads/twelve" />
+
+	<project path="device/qcom/common" name="device_qcom_common" remote="pe-devices" />
+
+	<project path="external/faceunlock" name="external_faceunlock" remote="pe-gitlab" />
+
+	<project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pe" />
+	<project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="pe" />
+	<project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="pe" />
+
+	<project path="vendor/custom-preference" name="vendor_custom-preference" remote="pe" />
+	<project path="vendor/pixel-framework" name="vendor_pixel-framework" remote="pe" />
+</manifest>
