@@ -36,8 +36,6 @@
 
 	<project path="device/aniosp/sepolicy" name="device_aniosp_sepolicy" remote="aniosp" />
 	<project path="device/qcom/sepolicy" name="device_qcom_sepolicy" remote="aniosp" />
-	<project path="device/qcom/sepolicy-legacy" name="device_qcom_sepolicy-legacy" remote="aniosp" />
-	<project path="device/qcom/sepolicy-legacy-um" name="device_qcom_sepolicy-legacy-um" remote="aniosp" />
 	<project path="device/qcom/sepolicy_vndr" name="device_qcom_sepolicy_vndr" remote="aniosp" />
 
 	<project path="external/htop" name="external_htop" remote="aniosp" />
