@@ -1108,4 +1108,5 @@
   <include name="snippets/aniosp.xml" />
   <include name="snippets/lineage.xml" />
   <include name="snippets/pixelexperience.xml" />
+	<include name="snippets/fdroid.xml" />
 </manifest>

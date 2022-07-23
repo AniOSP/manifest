@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="fdroid"
+					fetch="https://gitlab.com/fdroid"
+					revision="refs/heads/master" />
+
+	<project path="packages/apps/F-DroidPrivilegedExtension" name="privileged-extension" remote="fdroid" />
+</manifest>

@@ -54,4 +54,5 @@
 
 	<project path="vendor/aniosp" name="vendor_aniosp" remote="aniosp" />
 	<project path="vendor/gapps" name="vendor_gapps" remote="aniosp-gitea" depth="1" />
+	<project path="vendor/fdroid" name="vendor_fdroid" remote="aniosp" />
 </manifest>
