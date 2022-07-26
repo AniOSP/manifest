@@ -76,8 +76,9 @@
 	<remove-project name="platform/hardware/qcom/gps" />
 	<remove-project name="platform/hardware/qcom/media" />
 	<remove-project name="platform/hardware/qcom/wlan" />
-	<remove-project name="platform/packages/modules/adb" />
 	<remove-project name="platform/packages/apps/Bluetooth" />
+	<remove-project name="platform/packages/apps/Nfc" />
+	<remove-project name="platform/packages/modules/adb" />
 	<remove-project name="platform/prebuilts/build-tools" />
 	<remove-project name="platform/prebuilts/gcc/darwin-x86/aarch64/aarch64-linux-android-4.9" />
 	<remove-project name="platform/prebuilts/gcc/darwin-x86/arm/arm-linux-androideabi-4.9" />
