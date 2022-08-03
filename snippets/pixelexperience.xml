@@ -20,6 +20,8 @@
 
 	<project path="external/faceunlock" name="external_faceunlock" remote="pe-gitlab" />
 
+	<project path="frameworks/av" name="frameworks_av" remote="pe-plus" />
+
 	<project path="packages/apps/FaceUnlockService" name="packages_apps_FaceUnlockService" remote="pe" />
 	<project path="packages/apps/TouchGestures" name="packages_apps_TouchGestures" remote="pe" />
 	<project path="packages/resources/devicesettings" name="packages_resources_devicesettings" remote="pe" />
