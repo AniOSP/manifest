@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+	<remote name="kdrag0n"
+					fetch="https://github.com/kdrag0n"
+					revision="refs/heads/main" />
+
+	<project path="packages/apps/RepainterServicePriv" name="android_packages_apps_RepainterServicePriv" remote="kdrag0n" />
+</manifest>
