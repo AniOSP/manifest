@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-	<remote name="aniosp" fetch="https://github.com/AniOSP" revision="refs/heads/shizuku-12.1" />
-
-	<remote name="aniosp-devices" fetch="https://github.com/AniOSP-Devices" revision="refs/heads/shizuku-12.1" />
-
-	<remote name="aniosp-gitea" fetch="https://code.relms.dev/AniOSP" revision="refs/heads/shizuku-12.1" />
+	<remote name="aniosp" fetch="https://github.com/AniOSP" revision="refs/heads/aiko-13" />
+	<remote name="aniosp-devices" fetch="https://github.com/AniOSP-Devices" revision="refs/heads/aiko-13" />
+	<remote name="aniosp-gitea" fetch="https://code.relms.dev/AniOSP" revision="refs/heads/aiko-13" />
 
 	<remove-project name="platform/bootable/recovery" />
 	<remove-project name="platform/build" />
@@ -40,8 +38,8 @@
 
 	<project path="hardware/aniosp/interfaces" name="hardware_aniosp_interfaces" remote="aniosp" />
 
-	<project path="packages/apps/Caster" name="packages_apps_Caster" remote="aniosp" />
-	<project path="packages/apps/Updates" name="packages_apps_Updates" remote="aniosp" />
+	<!-- <project path="packages/apps/Caster" name="packages_apps_Caster" remote="aniosp" />
+	<project path="packages/apps/Updates" name="packages_apps_Updates" remote="aniosp" /> -->
 	<project path="packages/apps/Settings" name="packages_apps_Settings" remote="aniosp" />
 
 	<project path="system/core" name="system_core" remote="aniosp" />

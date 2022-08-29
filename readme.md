@@ -8,7 +8,7 @@ To download, you will need around 100GB of free space, so clearing out some of y
 
 Make a directory, as this is where the flaming piece of garbage will reside, and you don't want that spreading to other parts of your system. Once you're in that directory, run:
 
-`repo init -u http://github.com/AniOSP/manifest -b shizuku-12.1 --depth=1`
+`repo init -u http://github.com/AniOSP/manifest -b aiko-13 --depth=1`
 
 This will go ahead and download some neccesary files for running repo commands, but you have one more thing to run. It may crash ask you for your github username and email, if so, it will provide commands for setting it, and you can rerun the command after you do said credential setting. After a minute or so, assuming nothing goes wrong, the command will finish, and the repo will be initialized.
 
